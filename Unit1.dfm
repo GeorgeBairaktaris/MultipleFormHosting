@@ -10,9 +10,7 @@ object Form1: TForm1
     WidthPercent = 100.000000000000000000
     Align = alClient
     ChildOrder = 1
-    TabIndex = 0
     TabOrder = 0
-    ExplicitHeight = 377
   end
   object WebPanel1: TWebPanel
     Left = 0
@@ -34,6 +32,17 @@ object Form1: TForm1
       HeightPercent = 100.000000000000000000
       WidthPercent = 100.000000000000000000
       OnClick = WebButton1Click
+    end
+    object WebButton2: TWebButton
+      Left = 366
+      Top = 6
+      Width = 96
+      Height = 25
+      Caption = 'Test 2'
+      ChildOrder = 1
+      HeightPercent = 100.000000000000000000
+      WidthPercent = 100.000000000000000000
+      OnClick = WebButton2Click
     end
   end
 end

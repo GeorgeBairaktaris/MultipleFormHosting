@@ -4,7 +4,8 @@ uses
   Vcl.Forms,
   WEBLib.Forms,
   Unit1 in 'Unit1.pas' {Form1: TWebForm} {*.html},
-  MainManageWB in 'MainManageWB.pas' {frmMainManageWB: TWebForm};
+  MainManageWB in 'MainManageWB.pas' {frmMainManageWB: TWebForm},
+  MainManageWB2 in 'MainManageWB2.pas' {frmMainManageWB2: TWebForm};
 
 {$R *.res}
 
